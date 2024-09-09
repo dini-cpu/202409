@@ -48,6 +48,8 @@ a {text-decoration-line: none;}
 </head>
 <body>
 
+
+
 <div class="header">
   <h1><a href="index.html" >花無十日紅</a></h1>
 </div>
@@ -58,7 +60,15 @@ a {text-decoration-line: none;}
 </div>
 
 
+<!--다크 모드-->
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';">
 
+<!--화이트 모드-->
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';">
 
 
 <p> 안녕하시소<br>
